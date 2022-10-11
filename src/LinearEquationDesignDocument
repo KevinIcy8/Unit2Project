@@ -8,7 +8,7 @@ Instance variable:
     private newX
 
 Constructor
-public LinearEquation (int x, int y)
+public LinearEquation (int x, int y, int x2, int y2)
     this will be my constructor for when my user type in the coordinate pairs
 public LinearEquation (int newX)
     this will be my constructor for when the user enter only the x coordinate
@@ -17,19 +17,19 @@ Initialize all the private variables to the variables in the parameter
 
 Methods
 
-public double slope
+public double slope()
 this will calculate the slope
 
-public double distance
+public double distance()
 this will calculate the distance
 
-public double yIntercept
+public double yIntercept()
 this will find the yIntercept
 
-public void formulaConstructor
+public void formulaConstructor()
 this will print out all the info in a y = mx+b form.
 
-public void yCalculator
+public void yCalculator()
 this will calculate the y coordinate of the corresponding x coordinate
 
 Optimization:
