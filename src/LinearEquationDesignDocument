@@ -1,0 +1,50 @@
+LinearEquation class
+
+Instance variable:
+    private int x1
+    private int y1
+    private int x2
+    private int y2
+    private newX
+
+Constructor
+public LinearEquation (int x, int y)
+    this will be my constructor for when my user type in the coordinate pairs
+public LinearEquation (int newX)
+    this will be my constructor for when the user enter only the x coordinate
+
+Initialize all the private variables to the variables in the parameter
+
+Methods
+
+public double slope
+this will calculate the slope
+
+public double distance
+this will calculate the distance
+
+public double yIntercept
+this will find the yIntercept
+
+public void formulaConstructor
+this will print out all the info in a y = mx+b form.
+
+public void yCalculator
+this will calculate the y coordinate of the corresponding x coordinate
+
+Optimization:
+have the slope become a fraction
+round y intercept and distance to the nearest hundredth
+
+
+EquationRunner.java
+Step 1. ask user for the first coordinate pair
+Step 2. ask user for the second coordinate pair
+Step 3. print out the first coordinate pair
+Step 4. print out the second coordinate pair
+Step 5. call the formulaConstructor to print the equation in y=mx+b form
+Step 6. call slope to print slope of line (m)
+Step 7. call yIntercept to print y intercept of line (b)
+Step 8. call the distance to print the distance
+Step 9. ask user for a new x coordinate
+Step 10. call yCalculator to prints out the coordinate pair with the correct formation
