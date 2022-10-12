@@ -19,6 +19,6 @@ public class LinearEquation {
 
     public void getDistance()
     {
-        System.out.println(Math.sqrt(Math.pow((x1+x2),2)+Math.pow((y1+y2),2)));
+        System.out.println(Math.sqrt(Math.pow((x1-x2),2)+Math.pow((y1-y2),2)));
     }
 }
