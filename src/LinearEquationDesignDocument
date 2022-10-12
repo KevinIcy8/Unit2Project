@@ -7,9 +7,10 @@ Instance variable:
     private int y2
     private newX
 
+
 Constructor
-public LinearEquation (int x, int y, int x2, int y2)
-    this will be my constructor for when my user type in the coordinate pairs
+public LinearEquation (int x1, int y1, int x2, int y2)
+    this will be my constructor for all the coordinate pairs that my user types in
 public LinearEquation (int newX)
     this will be my constructor for when the user enter only the x coordinate
 
@@ -17,7 +18,7 @@ Initialize all the private variables to the variables in the parameter
 
 Methods
 
-public double slope()
+public double slope(int x1, int y1, int x2, int y2)
 this will calculate the slope
 
 public double distance()
@@ -35,7 +36,7 @@ this will calculate the y coordinate of the corresponding x coordinate
 Optimization:
 have the slope become a fraction
 round y intercept and distance to the nearest hundredth
-
+comments
 
 EquationRunner.java
 Step 1. ask user for the first coordinate pair
