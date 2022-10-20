@@ -5,47 +5,52 @@ Instance variable:
     private int y1
     private int x2
     private int y2
-    private newX
+
 
 
 Constructor
 public LinearEquation (int x1, int y1, int x2, int y2)
     this will be my constructor for all the coordinate pairs that my user types in
-public LinearEquation (int newX)
-    this will be my constructor for when the user enter only the x coordinate
+
 
 Initialize all the private variables to the variables in the parameter
 
 Methods
 
-public double slope(int x1, int y1, int x2, int y2)
-this will calculate the slope
+public double calculateSlope()
+this will calculate and store the slope
 
-public double distance()
-this will calculate the distance
+public void calculateSlope()
+this will print the slope
 
-public double yIntercept()
-this will find the yIntercept
+public void distance()
+this will calculate and print the distance
 
-public void formulaConstructor()
+public double calYIntercept()
+this will calculate and store the yIntercept
+
+public void getYIntercept()
+this will print the yIntercept
+
+public void slopeIntForm()
 this will print out all the info in a y = mx+b form.
 
-public void yCalculator()
-this will calculate the y coordinate of the corresponding x coordinate
+public void getCalY(double newX)  //newX being the user input for x
+this will calculate and print the y coordinate corresponding to x coordinate
 
-Optimization:
+Organization:
 have the slope become a fraction
 round y intercept and distance to the nearest hundredth
-comments
+comments for readability
 
 EquationRunner.java
 Step 1. ask user for the first coordinate pair
 Step 2. ask user for the second coordinate pair
 Step 3. print out the first coordinate pair
 Step 4. print out the second coordinate pair
-Step 5. call the formulaConstructor to print the equation in y=mx+b form
-Step 6. call slope to print slope of line (m)
-Step 7. call yIntercept to print y intercept of line (b)
-Step 8. call the distance to print the distance
+Step 5. call getSlope to print slope of line
+Step 6. call getYIntercept to print y intercept of line
+Step 7. call getDistance to print the distance
+Step 8. call the slopeIntForm to print the equation in y=mx+b form
 Step 9. ask user for a new x coordinate
-Step 10. call yCalculator to prints out the coordinate pair with the correct formation
+Step 10. call getCalY to prints out the coordinate pair with the solved y coordinate
